@@ -160,10 +160,10 @@ def main():
 	recon = False
 
 	parser = argparse.ArgumentParser(
-			prog='QuickScript.py',
+			prog='QuickBat.py',
 			usage='%(prog)s [-o OUTPUTFILE] [-sam ACCOUNT PASSWORD] [-hotspot SSID PASSWORD] [-fw] [-rdp ACCOUNT] [-cl] [-sticky] [-run]',
 			description='Quick Batch helps quickly customize a BAT file for persistence on a victim machine.',
-			epilog='QuickScript (c) 2016'
+			epilog='Quick Batch (c) 2016'
 	)
 
 	parser.add_argument("-o", required=True, help="Output File to Contain Batch Commands")					#Working
